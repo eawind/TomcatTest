@@ -7,6 +7,6 @@
 <title>test jsp</title>
 </head>
 <body>
-test
+<p>Hello, World!</p>
 </body>
 </html>
