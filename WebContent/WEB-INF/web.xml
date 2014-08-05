@@ -19,4 +19,24 @@
     <servlet-name>HelloWorld</servlet-name>
     <url-pattern>/HelloWorld</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>MySQLTest</display-name>
+    <servlet-name>MySQLTest</servlet-name>
+    <servlet-class>com.example.part1.MySQLTest</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>MySQLTest</servlet-name>
+    <url-pattern>/MySQLTest</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>DBTest</display-name>
+    <servlet-name>DBTest</servlet-name>
+    <servlet-class>com.example.part1.DBTest</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DBTest</servlet-name>
+    <url-pattern>/DBTest</url-pattern>
+  </servlet-mapping>
 </web-app>
